@@ -1,0 +1,98 @@
+:root {
+    --cl-primary: #adfb0e;
+}
+/*resets*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+button{
+    font-family: inherit;
+}
+/* basic style*/
+html{
+    font-size: 62.25%;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+}
+/* common style*/
+.bg_hover{
+  position: relative;
+  
+  
+}
+.bg_hover::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0%;
+    background-color: var(--cl-primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.bg_hover:hover::after{
+    width: 50%;
+}
+
+
+
+/* header*/
+.navigation_box{
+    padding: 2rem 6rem;
+}
+.navigation_box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo_box{
+   float: left;
+   
+}
+.logo_box_text{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.logo_box_text-2{
+    
+    color: var(--cl-primary);
+    
+    
+}
+.navigation{
+ float: right;
+ 
+}
+.navigation_list{
+    list-style: none;
+}
+.navigation_items{
+    display: inline-block;
+}
+.navigation_items:not(:last-child){
+    margin-right: 1.8rem;
+}
+.navlinks:link,
+.navlinks:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    padding: .5rem 1.5rem;
+    
+    
+}
