@@ -4,24 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>title</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="navigation_box">
+    <nav class="nav">
+        <div class="navigation_box">
             <div class="logo_box">
                 <span class="logo_box_text logo_box_text-1">green</span>
                 <span class="logo_box_text logo_box_text-2">foods</span>
             </div>
             <div class="navigation">
                 <ul class="navigation_list">
-                    <li class="navigation_items"><a href="#" class="navlinks bg_hover">Home</a></li>
-                    <li class="navigation_items"><a href="#" class="navlinks bg_hover">Menu</a></li>
-                    <li class="navigation_items"><a href="#" class="navlinks bg_hover">About</a></li>
-                    <li class="navigation_items"><a href="#" class="navlinks bg_hover">Contact</a></li>
+                    <li class="navigation_items"><a href="#" class="navlink bg_hover active">Home</a></li>
+                    <li class="navigation_items"><a href="#" class="navlink bg_hover">Menu</a></li>
+                    <li class="navigation_items"><a href="#" class="navlink bg_hover">About</a></li>
+                    <li class="navigation_items"><a href="#" class="navlink bg_hover">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
+    <section>
+        <div class="row">
+            <div class="col-1-of-2">
+                    <h1 class="primary">
+                        <span class="primary_text">Eat healthy</span>
+                        <span class="primary_text">stay healthy</span>
+                    </h1>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquid, minima eligendi architecto doloribus laborum error excepturi pariatur reprehenderit corporis, ea sint facere voluptas itaque, tenetur earum laboriosam exercitationem nostrum?</p>
+                    <button class="btn btn_primary">Read more</button>
+                    <div class="icons_box">
+                        <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icons"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="icons"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                
+            </div>
+            <div class="col-1-of-2">
+                <div class="slide_show">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="food image" class="img">
+                    <div class="arrows">
+                        <span class="span_box"><a href="#" class="arr_link"><i class="fa-solid fa-arrow-right"></i></a></span>
+                        <span class="span_box"><a href="#" class="arr_link"><i class="fa-solid fa-arrow-left"></i></a></span>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
 </body>
 </html>
