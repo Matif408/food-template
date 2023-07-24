@@ -33,7 +33,7 @@ body{
 .row{
     max-width: var(--max-width);
     /* background-color: green; */
-    margin: 0 auto;
+    margin: 4rem auto;
 }
 .row::after{
     content: "";
@@ -80,7 +80,7 @@ body{
 
 /* header*/
 .navigation_box{
-    padding: 2rem 6rem;
+    padding: 5rem 6rem;
 }
 .navigation_box::after{
     content: "";
@@ -128,7 +128,8 @@ body{
 }
 /*typography*/
 .primary{
-    margin-bottom: 1.8rem;
+    margin-top:6rem;
+    margin-bottom: 2.5rem;
 }
 .primary_text{
     display: block;
@@ -178,7 +179,7 @@ body{
 
 /* icons style */
 .icons_box{
-    margin-top: 15rem;
+    margin-top: 10rem;
 
 }
 .icons{
@@ -188,13 +189,14 @@ body{
 
 .img{
     height: 30rem;
+
     
 }
 .arrows{
     margin-top: 2rem;
     text-align: right;
     width: 10rem;
-    margin: 0 0 0 auto;
+    margin: 5rem 0 0 auto;
     
 }
 .span_box{
@@ -209,6 +211,6 @@ body{
 }
 .slide_show{
     width: 30rem;
-    margin: 0 0 0 auto;
+    margin: 5rem 0 0 auto;
 
 }
